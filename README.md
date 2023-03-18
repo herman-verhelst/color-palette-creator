@@ -22,7 +22,7 @@ python3 list_images.py
 
 In this file you can change the parameters for the color palette extraction.
 
-|||
+|Parameters|Explanation|
 |---|---|
 |tolerance|Group colors to limit the output and give a better visual representation. Based on a scale from 0 to 100. Where 0 won’t group any color and 100 will group all colors into one.| 
 |limit|Upper limit to the number of extracted colors presented in the output.|
@@ -34,7 +34,7 @@ When you run `palette_creator.py` an `output.json` file will be created in the `
 python3 pallette_creator.py
 ```
 
-|||
+|Displayed Columns|Explanation|
 |---|---|
 |Color code|Hexadecimal value for your color, when clicking on this table cell, the code will be copied to your clipboard.|
 |Number of occurences|How many pixels have this color.|
